@@ -1,0 +1,31 @@
+let newNamesFind = [{
+    isPopular: false, 
+    src: "picturestravel/Canyon.png",
+    heading: 'Парки США, Гранд-Каньон',
+    description: '12 дней | 15 дней с Национальным парком Миссула и Глейшер',
+    price: '185 000 руб.',
+    oldPrice: '197 000 руб',
+    button: 'Выбрать',
+    id: 10,  
+},
+{
+    isPopular: false, 
+    src: "picturestravel/Prague.png",
+    heading: 'Польша, Прага',
+    description: '9 дней | 11 дней с поездкой в Будапешт',
+    price: '285 000 руб.',
+    oldPrice: '305 000 руб',
+    button: 'Выбрать',
+    id: 11,   
+},
+{
+    isPopular: false, 
+    src: "picturestravel/Creete.png",
+    heading: 'Греция, Крит',
+    description: '14 дней | 16 дней с поездкой в Афины, Миконос, Санторини и Крит',
+    price: '320 000 руб.',
+    oldPrice: '340 000 руб',
+    button: 'Выбрать',
+    id: 12,     
+}
+]
