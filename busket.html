@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busket</title>
+    <link rel="stylesheet" href="busket.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Russo+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header_description center">
+    <header class="header">
+        <a href="travel.html">
+        <img src="picturestravel/logo.png">
+        </a>
+        <input type="search" class="header_search" placeholder="Поиск">
+    <nav class="header_catalog">
+       <a href="catalog.html" class="header_links">Каталог</a>
+       <a href="busket.html" class="header_links">Корзина</a>
+    </nav> 
+    </header>
+    <div class="header_text">
+        <h1 class="header_main">
+            Корзина
+        </h1>
+    </div>
+    </div>
+    <div class="order center">
+    <div class="order_text center">
+    <p>Товар</p>
+    <p>Кол-во</p>
+    </div>
+        <!-- <div class="order_card">
+        <img class="order_pic" src="picturestravel/France.png">
+        <div class="order_all">
+        <h1 class="order_maintext">Париж</h1>
+        <p class="order_description">9 дней | 12 дней с поездкой в Нормандию и Париж</p>
+        <p class="order_price">138 000 руб.</p>
+        </div>
+        <input type="number" class="order_number" value="1" min="1">
+        </div>
+    </div> -->
+    <form class="center offer">
+        <h1 class="offer_text">Оформление заказа</h1>
+        <div class="offer__details">
+        <input type="text" placeholder="Имя Фамилия" class="offer__details_input" required>
+        <input type="tel" placeholder="Номер телефона" class="offer__details_input" required>
+        <input type="text" placeholder="Адрес доставки" class="offer__details_input" required>
+        </div>
+        <p class="offer_amount"></p>
+        <button class="offer_button">Оформить заказ</button>
+    </form>
+    <div class="form_buttons"> 
+        <button class="form_clear">Очистить корзину</button>
+        <button class="form_continue">Продолжить покупки</button>
+    </div>
+    <script src="Src/storage.js"></script>
+    <script src="Src/travel_array.js"></script>
+    <script src="Src/busket.js"></script>
+    <!-- <script src="Src/new_travel_array.js"></script> -->
+</body>
+</html>
