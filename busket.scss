@@ -1,0 +1,188 @@
+$color:#ffffff;
+* {
+    margin: 0;
+    padding: 0;
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+    height: 77px;
+    &_description {
+    background-image: url(picturestravel/photo.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} &_catalog {
+    display: flex;
+    gap: 32px;
+}
+&_links {
+    font-size: 16px;
+    text-decoration: none;
+    color: $color;
+    font-family: Montserrat;
+}
+&_search::placeholder {
+    color: $color;
+}  
+&_search {
+    border: 2px solid $color;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 12px;
+    outline: none;
+    font-family: Montserrat;
+}
+&_text {
+    font-size: 36px;
+    color: $color;
+    display: flex; 
+}
+&_main {
+    margin-top: 140px;
+    color: $color;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+}
+}
+.order {
+    width: 787px;
+    
+    &_text {
+        display: flex;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: 64px;
+        justify-content: space-between;
+    } &_card {
+        display: flex;
+        margin-top: 14px;
+        border-top: 0.5px solid #CACDD8;
+        padding: 14px;
+    }
+    &_pic {
+        width: 173px;
+    }&_all {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 586px;
+        
+    } &_maintext {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 14px;
+    } &_description {
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #888888;
+    } &_price {
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+margin-top: 16px;
+    } &_number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 71px;
+        height: 51px;
+        background: #F7F6F6;
+        border-radius: 6px;
+        border: none;
+        
+    }
+}
+.offer {
+    width: 379px;
+    height: 556px;
+    background: #F7F6F6;
+    border-radius: 20px;
+    float: right;
+    &_text {
+        margin-top: 42px;
+        margin-bottom: 36px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+    &__details {
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px; 
+    }
+    &__details_input {
+            border: none;
+            border-bottom: 1px solid #CACDD8;
+            background-color: transparent;
+            outline: none;
+        }
+    
+    &_amount {
+        margin-top: 64px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+
+    } &_button {
+        margin-top: 18px;
+        background: #486A93;
+        border: 1px solid #FFFFFF;
+        border-radius: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 274px;
+        height: 45px;
+    }
+}
+.form_buttons {
+    box-sizing: border-box;
+    width: 200px;
+    height: 37px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
